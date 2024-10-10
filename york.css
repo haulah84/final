@@ -1,0 +1,32 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    border: 1px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
+.grid-item1{
+    width: 30px;
+    height: 30px;
+    justify-content: space-between;
+    
+}
+.grid-item2{
+    font-size: 10px;
+}
+ul{
+    list-style: none;
+    padding: 10px;
+    color: white;
+}
+ol{
+    text-decoration: underline;
+    list-style: none;
+    margin: 10px;
+    color: white;
+}
+
+
